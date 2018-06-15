@@ -8,5 +8,41 @@
 </head>
 <body>
     <h1>TASK VUE</h1>
+    <form action="">
+        <label for="task">Task</label> 
+        <input type="text" name="task">
+        <p></p>
+        <label for="descrition">Descrition</label> 
+        <textarea type="descrition" name="descrition" cols="30" rows="10"></textarea>
+        <p></p>
+        <label for="status">Status</label> 
+        <select>
+            <option value="backlog" selected>Backlog</option>
+            <option value="todo">Todo</option>
+            <option value="doing">Doing</option>
+            <option value="done">Done</option>
+        </select>
+    </form>
+    <p></p>
+    <table style="width:30%">
+            <tr>
+              <th colspan="1">Task</th>
+              <th colspan="2">Date init</th>
+              <th colspan="3">Duration</th>
+              <th colspan="4">Status</th>
+            </tr>
+            <tr>
+              <td>Bill Gates</td>
+              <td>14/06/2018</td>
+              <td>2h</td>
+              <td>Done</td>
+            </tr>
+            <tr>
+                <td>Bill Gates</td>
+                <td>14/06/2018</td>
+                <td>2h</td>
+                <td>Done</td>
+            </tr>
+    </table>
 </body>
 </html>
